@@ -1,0 +1,18 @@
+Model: Logistic Regression (L2)
+Features selected: 15
+Selected feature names:
+['Duration', 'Age', 'Credit_Amount', 'Installment_Rate', 'Credit_History_good_history', 'Credit_History_problem_history', 'Number_Credits', 'Housing_rent_or_free', 'Housing_own', 'Employment_short_or_unemployed', 'Employment_long', 'Savings_high', 'Savings_low_or_unknown', 'Other_Installment_Plans_no_other_plans', 'Other_Installment_Plans_has_other_plans']
+
+Classification report:
+              precision    recall  f1-score   support
+
+           1       0.75      0.89      0.81       141
+           2       0.52      0.27      0.36        59
+
+    accuracy                           0.71       200
+   macro avg       0.63      0.58      0.58       200
+weighted avg       0.68      0.71      0.68       200
+
+Confusion matrix:
+[[126  15]
+ [ 43  16]]
